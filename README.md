@@ -1,2 +1,1 @@
-# yutiankong.github.io
-myblog
+# myblog
