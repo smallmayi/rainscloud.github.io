@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/img/logo_yu.png">
+	<link rel="shortcut icon" href="/img/logo_yu.png">
+	
+			    <title>
+    Ytk
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    <meta name="keywords" content="yutiankong">
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">yutiankong</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/面试/">面试</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/yutiankong" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url(/img/001.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>208个最常见Java面试题全解析(1)</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h3 id="1-JDK和JRE有什么区别？"><a href="#1-JDK和JRE有什么区别？" class="headerlink" title="1.JDK和JRE有什么区别？"></a>1.JDK和JRE有什么区别？</h3><p>JVM ：英文名称（Java Virtual Machine），就是我们耳熟能详的 Java 虚拟机。它只认识 xxx.class 这种类型的文件，它能够将 class 文件中的字节码指令进行识别并调用操作系统向上的 API 完成动作。所以说，jvm 是 Java 能够跨平台的核心，具体的下文会详细说明。</p>
+<p>JRE ：英文名称（Java Runtime Environment），我们叫它：Java 运行时环境。它主要包含两个部分，jvm 的标准实现和 Java 的一些基本类库。它相对于 jvm 来说，多出来的是一部分的 Java 类库。</p>
+<p>JDK ：英文名称（Java Development Kit），Java 开发工具包。jdk 是整个 Java 开发的核心，它集成了 jre 和一些好用的小工具。例如：javac.exe，java.exe，jar.exe 等。</p>
+<p>显然，这三者的关系是：一层层的嵌套关系。JDK&gt;JRE&gt;JVM。</p>
+<p><a href="https://blog.csdn.net/qq_35326718/article/details/79443911" target="_blank" rel="noopener">参考链接</a></p>
+<p><br></p>
+<h3 id="2-和equals区别？"><a href="#2-和equals区别？" class="headerlink" title="2. ==和equals区别？"></a>2. ==和equals区别？</h3><p>1）对于==，比较的是值是否相等</p>
+<p>如果作用于基本数据类型的变量，则直接比较其存储的 “值”是否相等；</p>
+<p>如果作用于引用类型的变量，则比较的是所指向的对象的地址</p>
+<p>2）对于equals方法，注意：equals方法不能作用于基本数据类型的变量，equals继承Object类，比较的是是否是同一个对象</p>
+<p>如果没有对equals方法进行重写，则比较的是引用类型的变量所指向的对象的地址；</p>
+<p>诸如String、Date等类对equals方法进行了重写的话，比较的是所指向的对象的内容。</p>
+<p><br></p>
+<h3 id="3-两个对象的-hashCode-相同，则-equals-也一定为-true，对吗？"><a href="#3-两个对象的-hashCode-相同，则-equals-也一定为-true，对吗？" class="headerlink" title="3. 两个对象的 hashCode()相同，则 equals()也一定为 true，对吗？"></a>3. 两个对象的 hashCode()相同，则 equals()也一定为 true，对吗？</h3><p>不对，hash算法会重复hashcode值，对象不一定相同，equals不一定为true</p>
+<p>反之，两对象equals为true,则hashcode相同(java规范下，重写equals和hashcode方法,未重写hashcode可能不同)</p>
+<p><a href="https://www.cnblogs.com/expiator/p/6064974.html" target="_blank" rel="noopener">参考链接1</a><br><a href="https://blog.csdn.net/u013679744/article/details/57074669" target="_blank" rel="noopener">参考链接2</a><br><a href="https://www.cnblogs.com/stitchZsx/p/9558843.html" target="_blank" rel="noopener">参考链接3</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">@Override</span><br><span class="line">public boolean equals(Object o) &#123;</span><br><span class="line">    if (this == o) return true;</span><br><span class="line">    if (o == null || getClass() != o.getClass()) return false;</span><br><span class="line">    A a = (A) o;</span><br><span class="line">    return age == a.age &amp;&amp;</span><br><span class="line">            name.equals(a.name);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@Override</span><br><span class="line">public int hashCode() &#123;</span><br><span class="line">    return Objects.hash(name, age);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h3 id="4-final-在-Java-中有什么作用"><a href="#4-final-在-Java-中有什么作用" class="headerlink" title="4. final 在 Java 中有什么作用?"></a>4. final 在 Java 中有什么作用?</h3><p>a) final可以修饰类，这样的类不能被继承。</p>
+<p>b) final可以修饰方法，这样的方法不能被重写。 </p>
+<p>c) final可以修饰变量，这样的变量的值不能被修改，是常量。</p>
+<p><br></p>
+<h3 id="5-Java-中的-Math-round-1-5-等于多少？"><a href="#5-Java-中的-Math-round-1-5-等于多少？" class="headerlink" title="5. Java 中的 Math.round(-1.5) 等于多少？"></a>5. Java 中的 Math.round(-1.5) 等于多少？</h3><p>-1</p>
+<p>(Math.round ,floor,ceil)</p>
+<p><a href="https://www.cnblogs.com/tianyaxue/p/3145045.html" target="_blank" rel="noopener">参考链接</a></p>
+<p><br></p>
+<h3 id="6-String-属于基础的数据类型吗？"><a href="#6-String-属于基础的数据类型吗？" class="headerlink" title="6. String 属于基础的数据类型吗？"></a>6. String 属于基础的数据类型吗？</h3><p>不属于</p>
+<p>java四类八种基本数据类型 </p>
+<p>第一类：整型 byte short int long </p>
+<p>第二类：浮点型 float double </p>
+<p>第三类：逻辑型 boolean(它只有两个值可取true false) </p>
+<p>第四类：字符型 char </p>
+<p><br></p>
+<h3 id="7-Java-中操作字符串都有哪些类？它们之间有什么区别？"><a href="#7-Java-中操作字符串都有哪些类？它们之间有什么区别？" class="headerlink" title="7. Java 中操作字符串都有哪些类？它们之间有什么区别？"></a>7. Java 中操作字符串都有哪些类？它们之间有什么区别？</h3><p>String、StringBuffer、StringBuilder</p>
+<p>String 不可变字符串</p>
+<p>StringBuffer、StringBuilder 可变字符串</p>
+<p>StringBuffer对方法加了同步锁或者对调用的方法加了同步锁，所以是线程安全的<br>　　<br>StringBuilder 非线程安全</p>
+<p><br></p>
+<h3 id="8-String-str-“i”-和String-str-new-String-“i”-一样吗？"><a href="#8-String-str-“i”-和String-str-new-String-“i”-一样吗？" class="headerlink" title="8.  String str = “i” 和String str = new String(“i”) 一样吗？"></a>8.  String str = “i” 和String str = new String(“i”) 一样吗？</h3><p>不一样，</p>
+<p>String str 先在String池中寻找字符串指向，没有就在String池中创建，</p>
+<p>String str = new String(),直接声明一个 String对象是不检查字符串池的，也不会把对象放到池中</p>
+<p><a href="https://cloud.tencent.com/developer/news/15794" target="_blank" rel="noopener">参考链接</a></p>
+<p><br></p>
+<h3 id="9-如何将字符串反转"><a href="#9-如何将字符串反转" class="headerlink" title="9.  如何将字符串反转"></a>9.  如何将字符串反转</h3><p>1）利用StringBuffer或StringRuilder的reverse()方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">String s = new StringBuilder(&quot;hello&quot;).reverse().toString();</span><br></pre></td></tr></table></figure>
+<p>2）利用String 的toCharArray方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">String s =&quot;hello&quot;;</span><br><span class="line">String a =&quot;&quot;;</span><br><span class="line">char[] chars = s.toCharArray();</span><br><span class="line">for (int i = chars.length-1; i &gt;= 0 ; i--) &#123;</span><br><span class="line">    a += chars[i];</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(a);</span><br></pre></td></tr></table></figure>
+<p>3）利用String 的charAt方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">String s =&quot;hello&quot;;</span><br><span class="line">String a = &quot;&quot;;</span><br><span class="line">for (int i = 0; i &lt; s.length() ; i++) &#123;</span><br><span class="line">    a = s.charAt(i)+ a;</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(a);//在新字符串前面添加读取字符，实现翻转</span><br></pre></td></tr></table></figure>
+<p><a href="http://www.cnblogs.com/binye-typing/p/9260994.html" target="_blank" rel="noopener">参考链接</a></p>
+<p><br></p>
+<h3 id="10-String-类的常用方法有哪些？"><a href="#10-String-类的常用方法有哪些？" class="headerlink" title="10.  String 类的常用方法有哪些？"></a>10.  String 类的常用方法有哪些？</h3><p>trim , 去掉前后空格<br>equals , 判断内容是否一样<br>startsWith , 以xx开头<br>…</p>
+<p><br></p>
+<h3 id="11-抽象类必须要有抽象方法吗"><a href="#11-抽象类必须要有抽象方法吗" class="headerlink" title="11.  抽象类必须要有抽象方法吗"></a>11.  抽象类必须要有抽象方法吗</h3><p>不是，abstract定义的为抽象类，抽象类可以没有抽象方法，但无法使用new创建实例，必须被继承，<br>有抽象方法的一定是抽象类(接口）</p>
+<p><br></p>
+<h3 id="12-普通类和抽象类有哪些区别？"><a href="#12-普通类和抽象类有哪些区别？" class="headerlink" title="12. 普通类和抽象类有哪些区别？"></a>12. 普通类和抽象类有哪些区别？</h3><p>1.抽象类不能被实例<br>2.抽象类不能有构造函数，抽象方法不能是静态<br>3.抽象类可以有抽象方法<br>4.抽象类的抽象方法最后必须被非抽象方法继承实现</p>
+<p><br></p>
+<h3 id="13-抽象类能用final修饰吗？"><a href="#13-抽象类能用final修饰吗？" class="headerlink" title="13. 抽象类能用final修饰吗？"></a>13. 抽象类能用final修饰吗？</h3><p>不能，final修饰的方法不能被继承</p>
+<p><br></p>
+<h3 id="14-接口和抽象类区别？"><a href="#14-接口和抽象类区别？" class="headerlink" title="14. 接口和抽象类区别？"></a>14. 接口和抽象类区别？</h3><p>1.抽象类是被子类继承，接口被类实现<br>2.接口里定义的变量只能是公共的静态的常量，抽象类中的变量是普通变量</p>
+<p><br></p>
+<h3 id="15-java中IO流分为几种？"><a href="#15-java中IO流分为几种？" class="headerlink" title="15. java中IO流分为几种？"></a>15. java中IO流分为几种？</h3><p>1.字节输入流（InputStream）<br>2.字节输出流（OutputStream）<br>3.字符输入流（Reader）<br>4.字符输出流（Writer）</p>
+<p><br></p>
+<h3 id="16-BIO、NIO、AIO有什么区别？"><a href="#16-BIO、NIO、AIO有什么区别？" class="headerlink" title="16. BIO、NIO、AIO有什么区别？"></a>16. BIO、NIO、AIO有什么区别？</h3><p>BIO 同步阻塞IO，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器就需要启动一个线程进行处理。</p>
+<p>NIO 同步非阻塞IO，服务器实现模式为一个请求一个线程，即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询到连接有IO请求时才启动一个线程进行处理。</p>
+<p>AIO 异步非阻塞IO，在此种模式下，用户进程只需要发起一个IO操作然后就立即返回，等IO操作真的完成以后，应用程序会得到IO操作完成的通知，此时用户程序对数据进行处理就好了，而不需要进行实际的IO读写操作，因为真正的IO读或写操作已经由内核完成。</p>
+<p><a href="https://blog.csdn.net/scythe666/article/details/51980179" target="_blank" rel="noopener">参考链接1</a><br><a href="https://www.jianshu.com/p/ef418ccf2f7d" target="_blank" rel="noopener">参考链接2</a></p>
+<p><br></p>
+<h3 id="17-Files常用方法？"><a href="#17-Files常用方法？" class="headerlink" title="17. Files常用方法？"></a>17. Files常用方法？</h3><p><a href="https://www.cnblogs.com/cocoxu1992/p/10460994.html" target="_blank" rel="noopener">参考链接</a></p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2019/04/16/208-questions/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2019/04/16/208-questions/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <!-- <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li> -->
+            </ul>
+            <!-- 
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			 -->
+            <span id="busuanzi_container_site_pv"> 2019-04-22 </span> 
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
